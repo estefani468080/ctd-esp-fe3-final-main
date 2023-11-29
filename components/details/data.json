@@ -1,0 +1,22 @@
+[
+  {
+    "name": "number",
+    "label": "Numero de tarjeta",
+    "type": "text"
+  },
+  {
+    "name": "nameOnCard",
+    "label": "Nombre de la tarjeta",
+    "type": "text"
+  },
+  {
+    "name": "expDate",
+    "label": "Fecha de expiracion",
+    "type": "text"
+  },
+  {
+    "name": "cvc",
+    "label": "CVC",
+    "type": "text"
+  }
+]

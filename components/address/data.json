@@ -1,0 +1,27 @@
+[
+  {
+    "name": "address1",
+    "label": "Address",
+    "type": "text"
+  },
+  {
+    "name": "address2",
+    "label": "Address (opcional)",
+    "type": "text"
+  },
+  {
+    "name": "city",
+    "label": "City",
+    "type": "text"
+  },
+  {
+    "name": "state",
+    "label": "State",
+    "type": "text"
+  },
+  {
+    "name": "zipCode",
+    "label": "Codigo postal",
+    "type": "text"
+  }
+]
