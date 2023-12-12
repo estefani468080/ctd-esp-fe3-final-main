@@ -23,9 +23,9 @@ const Details: React.FC<Props> = ({
 }: Props) => {
   const shema = yup
     .object({
-      cvc: yup.string().required("El CVC es obligario"),
-      expDate: yup.string().required("La fecha es obligaria"),
-      nameOnCard: yup.string().required("El nombre es obligario"),
+      cvc: yup.string().required("El CVC es obligatorio"),
+      expDate: yup.string().required("La fecha es obligatoria"),
+      nameOnCard: yup.string().required("El nombre es obligatorio"),
       number: yup
         .string()
         .required("El numero es obligatorio")
@@ -63,6 +63,7 @@ const Details: React.FC<Props> = ({
                   variant="outlined"
                   sx={{ width: "100%" }}
                   label={item.label}
+                  type={item.type}
                   error={!!errors[item.name as keyof boolean] || false}
                   helperText={
                     errors[item.name as keyof FormData]?.message || ""

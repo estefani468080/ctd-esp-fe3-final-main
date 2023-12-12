@@ -22,6 +22,6 @@
   {
     "name": "zipCode",
     "label": "Codigo postal",
-    "type": "text"
+    "type": "number"
   }
 ]

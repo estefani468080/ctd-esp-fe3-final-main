@@ -28,11 +28,11 @@ const Personal: React.FC<Props> = ({
   const shema = yup
     .object({
       nombre: yup.string().required("El nombre es obligatorio"),
-      apellido: yup.string().required("El apellido es obligario"),
+      apellido: yup.string().required("El apellido es obligatorio"),
       email: yup
         .string()
         .email("No es un email")
-        .required("El email es obligario"),
+        .required("El email es obligatorio"),
     })
     .required();
 

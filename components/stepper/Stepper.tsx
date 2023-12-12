@@ -88,6 +88,7 @@ export default function HorizontalLinearStepper({
         response
       );
       if (!response?.data) {
+        alert(response.message);
         return;
       } else {
         const customer = response.data.customer;

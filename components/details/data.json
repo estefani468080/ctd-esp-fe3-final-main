@@ -2,7 +2,7 @@
   {
     "name": "number",
     "label": "Numero de tarjeta",
-    "type": "text"
+    "type": "number"
   },
   {
     "name": "nameOnCard",
@@ -17,6 +17,6 @@
   {
     "name": "cvc",
     "label": "CVC",
-    "type": "text"
+    "type": "number"
   }
 ]
